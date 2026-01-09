@@ -1,0 +1,33 @@
+var json_smpdemak_hanya_residu_terurut_1 = {
+"type": "FeatureCollection",
+"name": "smpdemak_hanya_residu_terurut_1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "No": 1.0, "Nama Sekolah": "SMP NEGERI 1 DEMAK", "Longitude (DD)": 110623925.0, "Latitude (DD)": -6.905375 }, "geometry": { "type": "Point", "coordinates": [ 110623925.0, -6.905375 ] } },
+{ "type": "Feature", "properties": { "No": 2.0, "Nama Sekolah": "SMP NEGERI 1 GUNTUR", "Longitude (DD)": 110.603036, "Latitude (DD)": -6.990961 }, "geometry": { "type": "Point", "coordinates": [ 110.603036, -6.990961 ] } },
+{ "type": "Feature", "properties": { "No": 3.0, "Nama Sekolah": "SMP NEGERI 1 KARANGANYAR", "Longitude (DD)": 110.784422, "Latitude (DD)": -6.819694 }, "geometry": { "type": "Point", "coordinates": [ 110.784422, -6.819694 ] } },
+{ "type": "Feature", "properties": { "No": 4.0, "Nama Sekolah": "SMP NEGERI 1 MRANGGEN", "Longitude (DD)": 110.527142, "Latitude (DD)": -7.027742 }, "geometry": { "type": "Point", "coordinates": [ 110.527142, -7.027742 ] } },
+{ "type": "Feature", "properties": { "No": 5.0, "Nama Sekolah": "SMP NEGERI 2 BONANG", "Longitude (DD)": 110.638572, "Latitude (DD)": -6.840819 }, "geometry": { "type": "Point", "coordinates": [ 110.638572, -6.840819 ] } },
+{ "type": "Feature", "properties": { "No": 6.0, "Nama Sekolah": "SMP NEGERI 2 DEMAK", "Longitude (DD)": 110.638636, "Latitude (DD)": -6.895961 }, "geometry": { "type": "Point", "coordinates": [ 110.638636, -6.895961 ] } },
+{ "type": "Feature", "properties": { "No": 7.0, "Nama Sekolah": "SMP NEGERI 2 GUNTUR", "Longitude (DD)": 110.642431, "Latitude (DD)": -6.964478 }, "geometry": { "type": "Point", "coordinates": [ 110.642431, -6.964478 ] } },
+{ "type": "Feature", "properties": { "No": 8.0, "Nama Sekolah": "SMP NEGERI 2 KARANGANYAR", "Longitude (DD)": 110.7908, "Latitude (DD)": -6.861028 }, "geometry": { "type": "Point", "coordinates": [ 110.7908, -6.861028 ] } },
+{ "type": "Feature", "properties": { "No": 9.0, "Nama Sekolah": "SMP NEGERI 2 KARANGTENGAH", "Longitude (DD)": 110.611867, "Latitude (DD)": -6.945878 }, "geometry": { "type": "Point", "coordinates": [ 110.611867, -6.945878 ] } },
+{ "type": "Feature", "properties": { "No": 10.0, "Nama Sekolah": "SMP NEGERI 2 MIJEN", "Longitude (DD)": 110.691094, "Latitude (DD)": -6.792878 }, "geometry": { "type": "Point", "coordinates": [ 110.691094, -6.792878 ] } },
+{ "type": "Feature", "properties": { "No": 11.0, "Nama Sekolah": "SMP NEGERI 3 SATU ATAP MIJEN", "Longitude (DD)": 110.696289, "Latitude (DD)": -6.834944 }, "geometry": { "type": "Point", "coordinates": [ 110.696289, -6.834944 ] } },
+{ "type": "Feature", "properties": { "No": 12.0, "Nama Sekolah": "SMP NEGERI 5 DEMAK", "Longitude (DD)": 110.633094, "Latitude (DD)": -6.891144 }, "geometry": { "type": "Point", "coordinates": [ 110.633094, -6.891144 ] } },
+{ "type": "Feature", "properties": { "No": 13.0, "Nama Sekolah": "SMPS ABDI NEGARA MRANGGEN", "Longitude (DD)": 110.526656, "Latitude (DD)": -7.025181 }, "geometry": { "type": "Point", "coordinates": [ 110.526656, -7.025181 ] } },
+{ "type": "Feature", "properties": { "No": 14.0, "Nama Sekolah": "SMPS BUSTANU USYSYAQIL QUR`AN", "Longitude (DD)": 110.644814, "Latitude (DD)": -6.893714 }, "geometry": { "type": "Point", "coordinates": [ 110.644814, -6.893714 ] } },
+{ "type": "Feature", "properties": { "No": 15.0, "Nama Sekolah": "SMPS FUTUHIYYAH MRANGGEN", "Longitude (DD)": 110.514258, "Latitude (DD)": -7.024736 }, "geometry": { "type": "Point", "coordinates": [ 110.514258, -7.024736 ] } },
+{ "type": "Feature", "properties": { "No": 16.0, "Nama Sekolah": "SMPS ISLAM TERPADU DAARUT TAHFIDZ", "Longitude (DD)": 110.526725, "Latitude (DD)": -6.968567 }, "geometry": { "type": "Point", "coordinates": [ 110.526725, -6.968567 ] } },
+{ "type": "Feature", "properties": { "No": 17.0, "Nama Sekolah": "SMPS IT AL MA RUF", "Longitude (DD)": 110.586878, "Latitude (DD)": -7.033222 }, "geometry": { "type": "Point", "coordinates": [ 110.586878, -7.033222 ] } },
+{ "type": "Feature", "properties": { "No": 18.0, "Nama Sekolah": "SMPS IT PATIUNUS KARANGAWEN", "Longitude (DD)": 110.560056, "Latitude (DD)": -7.039372 }, "geometry": { "type": "Point", "coordinates": [ 110.560056, -7.039372 ] } },
+{ "type": "Feature", "properties": { "No": 19.0, "Nama Sekolah": "SMPS IT ROUDHOTUS SHOLIHIN", "Longitude (DD)": 110.537647, "Latitude (DD)": -6.943697 }, "geometry": { "type": "Point", "coordinates": [ 110.537647, -6.943697 ] } },
+{ "type": "Feature", "properties": { "No": 20.0, "Nama Sekolah": "SMPS KY AGENG GIRI", "Longitude (DD)": 110.499353, "Latitude (DD)": -7.090581 }, "geometry": { "type": "Point", "coordinates": [ 110.499353, -7.090581 ] } },
+{ "type": "Feature", "properties": { "No": 21.0, "Nama Sekolah": "SMPS MA ARIF KYAI GADING", "Longitude (DD)": 110.557578, "Latitude (DD)": -7.005239 }, "geometry": { "type": "Point", "coordinates": [ 110.557578, -7.005239 ] } },
+{ "type": "Feature", "properties": { "No": 22.0, "Nama Sekolah": "SMPS MU BOARDING SCHOOL", "Longitude (DD)": 110.635528, "Latitude (DD)": -6.900236 }, "geometry": { "type": "Point", "coordinates": [ 110.635528, -6.900236 ] } },
+{ "type": "Feature", "properties": { "No": 23.0, "Nama Sekolah": "SMPS NURUSSALAM MRANGGEN", "Longitude (DD)": 110.512958, "Latitude (DD)": -7.026061 }, "geometry": { "type": "Point", "coordinates": [ 110.512958, -7.026061 ] } },
+{ "type": "Feature", "properties": { "No": 24.0, "Nama Sekolah": "SMPS TQ ANNUM", "Longitude (DD)": 110.534989, "Latitude (DD)": -7.016425 }, "geometry": { "type": "Point", "coordinates": [ 110.534989, -7.016425 ] } },
+{ "type": "Feature", "properties": { "No": 25.0, "Nama Sekolah": "SMPS UNGGULAN AL ISHLAH", "Longitude (DD)": 110.639236, "Latitude (DD)": -6.898086 }, "geometry": { "type": "Point", "coordinates": [ 110.639236, -6.898086 ] } },
+{ "type": "Feature", "properties": { "No": 26.0, "Nama Sekolah": "SMPS UNGGULAN CAHAYA TASBIH", "Longitude (DD)": 110.754383, "Latitude (DD)": -6.869122 }, "geometry": { "type": "Point", "coordinates": [ 110.754383, -6.869122 ] } }
+]
+}

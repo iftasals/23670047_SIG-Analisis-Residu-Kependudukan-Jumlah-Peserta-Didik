@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SIG - Residu Kependudukan Peserta Didik SMP Kabupaten Demak 2025</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="images/logo.png" type="image/png">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="100">
+	<!-- Navigation -->
+	<nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="#home">
+				<img src="images/logo.png" alt="Logo Tut Wuri Handayani" class="logo">
+				SIG Kabupaten Demak
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item">
+						<a class="nav-link active" href="#home">Beranda</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#peta">Peta Sebaran</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#data">Data Residu</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#statistik">Statistik</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#tentang">Tentang</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Hero Section -->
+	<section id="home" class="hero">
+		<div class="hero-overlay"></div>
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="hero-title-container">
+					<div class="hero-subtitle">Sistem Informasi Geografis</div>
+					<h1 class="hero-main-title">Sebaran Residu Kependudukan Peserta Didik SMP</h1>
+				</div>
+				<p class="hero-description">
+					Kabupaten Demak Tahun 2025
+				</p>
+				<div class="hero-cta">
+					<a href="#peta" class="btn-hero">
+						<i class="fas fa-map me-2"></i>LIHAT PETA SEBARAN
+					</a>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>
+
+	<!-- Peta Section -->
+	<section id="peta" class="section peta-section">
+		<div class="container">
+			<h2 class="section-title text-center">Peta Sebaran Residu Peserta Didik SMP</h2>
+			<p class="text-center mb-5">Visualisasi data sebaran residu kependudukan peserta didik SMP di Kabupaten
+				Demak
+				Tahun 2025</p>
+
+			<div class="row mb-4">
+				<div class="col-12">
+					<h4 class="text-center mb-3">Peta 1: Sebaran Peserta Didik SMP per Kecamatan</h4>
+					<p class="text-center mb-4">Peta ini menampilkan jumlah peserta didik SMP di setiap kecamatan di
+						Kabupaten Demak beserta titik lokasi sekolah.</p>
+				</div>
+			</div>
+
+			<div class="peta-container">
+				<iframe src="qgis2web_2025_12_19-03_12_47_717000/index.html" width="100%" height="100%" frameborder="0"
+					style="border:0"></iframe>
+			</div>
+
+			<div class="row mb-4 mt-5">
+				<div class="col-12">
+					<h4 class="text-center mb-3">Peta 2: Sebaran Residu Kependudukan Peserta Didik SMP per Kecamatan
+					</h4>
+					<p class="text-center mb-4">Peta ini menampilkan residu kependudukan peserta didik SMP di setiap
+						kecamatan di
+						Kabupaten Demak beserta titik lokasi sekolah.</p>
+				</div>
+			</div>
+
+			<div class="peta-container">
+				<iframe src="qgis2web_2026_01_04-23_17_13_077000/index.html" width="100%" height="100%" frameborder="0"
+					style="border:0"></iframe>
+			</div>
+
+			<div class="row mt-5">
+				<div class="col-md-4 mb-4">
+					<div class="data-card text-center">
+						<div class="data-icon">
+							<i class="fas fa-school"></i>
+						</div>
+						<h4>SMP Negeri</h4>
+						<p>Data sebaran residu peserta didik pada jenjang Sekolah Menengah Pertama Negeri di seluruh
+							kecamatan Kabupaten Demak.</p>
+					</div>
+				</div>
+				<div class="col-md-4 mb-4">
+					<div class="data-card text-center">
+						<div class="data-icon">
+							<i class="fas fa-graduation-cap"></i>
+						</div>
+						<h4>SMP Swasta</h4>
+						<p>Analisis residu kependudukan peserta didik pada jenjang Sekolah Menengah Pertama Swasta.</p>
+					</div>
+				</div>
+				<div class="col-md-4 mb-4">
+					<div class="data-card text-center">
+						<div class="data-icon">
+							<i class="fas fa-chart-bar"></i>
+						</div>
+						<h4>Analisis Tren SMP</h4>
+						<p>Pemetaan tren sebaran residu peserta didik SMP untuk perencanaan kebijakan pendidikan yang
+							tepat sasaran.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Data Section -->
+	<section id="data" class="section data-section">
+		<div class="container">
+			<h2 class="section-title text-center">Data Residu Peserta Didik SMP</h2>
+			<p class="text-center mb-5">Data terperinci residu kependudukan peserta didik SMP di Kabupaten Demak Tahun
+				2025</p>
+
+			<div class="row mb-4">
+				<div class="col-md-6">
+					<h4 class="mb-3">Filter Data</h4>
+					<div class="row">
+						<div class="col-md-6 mb-3">
+							<label for="kecamatanFilter" class="form-label">Kecamatan</label>
+							<select class="form-select" id="kecamatanFilter">
+								<option value="">Semua Kecamatan</option>
+							</select>
+						</div>
+						<div class="col-md-6 mb-3">
+							<label for="jenjangFilter" class="form-label">Jenjang</label>
+							<select class="form-select" id="jenjangFilter">
+								<option value="SMP" selected>SMP</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<h4 class="mb-3">Informasi Data</h4>
+					<div class="alert alert-info">
+						<i class="fas fa-info-circle me-2"></i>
+						<strong>Data Live dari Kemendikbudristek</strong><br>
+						Data diperbarui otomatis setiap kali halaman dimuat. Klik tombol refresh untuk memperbarui data.
+					</div>
+					<div class="d-flex justify-content-start">
+						<button id="refreshData" class="btn btn-outline-primary">
+							<i class="fas fa-sync-alt me-2"></i>Refresh Data
+						</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="table-responsive">
+				<table class="table table-striped table-hover">
+					<thead class="table-primary">
+						<tr>
+							<th>No</th>
+							<th>Nama Kecamatan</th>
+							<th class="text-right">Jumlah Peserta Didik SMP</th>
+							<th class="text-right">Residu Kependudukan SMP</th>
+						</tr>
+					</thead>
+					<tbody id="dataTableBody">
+					</tbody>
+					<tfoot class="table-info">
+						<tr id="totalRow">
+							<td colspan="2" class="fw-bold">TOTAL SEMUA KECAMATAN</td>
+							<td class="text-right fw-bold" id="totalPesertaDidikFooter">0</td>
+							<td class="text-right fw-bold" id="totalResiduKependudukanFooter">0</td>
+						</tr>
+					</tfoot>
+				</table>
+			</div>
+
+			<div class="row mt-3">
+				<div class="col-md-6">
+					<div class="pagination-info" id="paginationInfo">
+						Showing 0 to 0 of 0 entries
+					</div>
+				</div>
+				<div class="col-md-6">
+					<nav aria-label="Page navigation">
+						<ul class="pagination justify-content-end" id="pagination">
+						</ul>
+					</nav>
+				</div>
+			</div>
+
+			<div class="loading" id="loadingData">
+				<div class="spinner"></div>
+				<div class="ms-3">Memuat data SMP dari Kemendikbudristek...</div>
+			</div>
+
+			<div class="row mt-4">
+				<div class="col-12 text-center">
+					<a href="https://referensi.data.kemendikdasmen.go.id/residu/pesertadidik/wilayah/032100/2?jenjang=Dikdas&bentuk=SMP"
+						target="_blank" class="btn btn-primary">
+						<i class="fas fa-external-link-alt me-2"></i>Sumber Data Lengkap SMP
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Statistik Section -->
+	<section id="statistik" class="section peta-section">
+		<div class="container">
+			<h2 class="section-title text-center">Statistik Residu Peserta Didik SMP</h2>
+			<p class="text-center mb-5">Analisis statistik residu kependudukan peserta didik SMP di Kabupaten Demak</p>
+
+			<div class="row">
+				<div class="col-md-3 mb-4">
+					<div class="stat-card text-center">
+						<div class="stat-number" id="totalKecamatan">0</div>
+						<div class="stat-label">Kecamatan</div>
+					</div>
+				</div>
+				<div class="col-md-3 mb-4">
+					<div class="stat-card text-center">
+						<div class="stat-number" id="totalPesertaDidik">0</div>
+						<div class="stat-label">Total Peserta Didik SMP</div>
+					</div>
+				</div>
+				<div class="col-md-3 mb-4">
+					<div class="stat-card text-center">
+						<div class="stat-number" id="totalResiduKependudukan">0</div>
+						<div class="stat-label">Total Residu Kependudukan SMP</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row mt-5">
+				<div class="col-md-6">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title text-center">Persebaran Peserta Didik SMP per Kecamatan</h5>
+							<div class="chart-container">
+								<canvas id="pesertaDidikChart"></canvas>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title text-center">Persebaran Residu Kependudukan SMP per Kecamatan</h5>
+							<div class="chart-container">
+								<canvas id="residuKependudukanChart"></canvas>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Tentang Section -->
+	<section id="tentang" class="section data-section">
+		<div class="container">
+			<h2 class="section-title text-center">Tentang Sistem</h2>
+			<p class="text-center mb-5">Informasi tentang Sistem Informasi Geografis Sebaran Residu Kependudukan Peserta
+				Didik SMP Kabupaten Demak</p>
+
+			<div class="row">
+				<div class="col-md-6 mb-5">
+					<h4 class="mb-4">Deskripsi</h4>
+					<p>Sistem Informasi Geografis (SIG) ini menampilkan sebaran residu kependudukan peserta didik
+						SMP di Kabupaten Demak Tahun 2025. Residu menunjukkan perbedaan antara data kependudukan dengan
+						data peserta didik aktual.</p>
+					<p>Analisis ini membantu pemangku kebijakan dalam perencanaan
+						pendidikan yang lebih tepat
+						sasaran, pemerataan fasilitas, dan peningkatan mutu pendidikan di Kabupaten Demak..</p>
+				</div>
+				<div class="col-md-6 mb-5">
+					<h4 class="mb-4">Manfaat</h4>
+					<ul class="list-group">
+						<li class="list-group-item d-flex align-items-center">
+							<i class="fas fa-check-circle text-success me-3"></i>
+							Pemetaan visual sebaran residu peserta didik SMP
+						</li>
+						<li class="list-group-item d-flex align-items-center">
+							<i class="fas fa-check-circle text-success me-3"></i>
+							Analisis data untuk perencanaan pendidikan SMP
+						</li>
+						<li class="list-group-item d-flex align-items-center">
+							<i class="fas fa-check-circle text-success me-3"></i>
+							Monitoring perkembangan peserta didik SMP
+						</li>
+						<li class="list-group-item d-flex align-items-center">
+							<i class="fas fa-check-circle text-success me-3"></i>
+							Dukungan pengambilan keputusan berbasis data SMP
+						</li>
+						<li class="list-group-item d-flex align-items-center">
+							<i class="fas fa-check-circle text-success me-3"></i>
+							Evaluasi kebijakan pendidikan SMP di daerah
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="row mt-4">
+				<div class="col-12 text-center">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">Kontak Pengembang</h5>
+							<p class="card-text">
+								<i class="fas fa-envelope me-2"></i>iftadilasalsabila@gmail.com<br>
+								<i class="fas fa-phone me-2"></i>+62 858-8149-4963
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- FOOTER -->
+	<footer class="footer">
+		<div class="wave-container">
+			<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+				preserveAspectRatio="none">
+				<path
+					d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+					class="shape-fill"></path>
+			</svg>
+		</div>
+
+		<div class="wave-layer-1"></div>
+		<div class="wave-layer-2"></div>
+		<div class="wave-layer-3"></div>
+
+		<div class="footer-main">
+			<div class="container">
+				<div class="footer-content">
+					<div class="row g-4">
+						<div class="col-lg-6 mb-4">
+							<div class="footer-card">
+								<div class="card-header">
+									<i class="fas fa-university footer-icon"></i>
+									<h4 class="footer-title">Rujukan Instansi</h4>
+								</div>
+								<div class="card-body">
+									<h5 class="institution-name">Dinas Pendidikan dan Kebudayaan Kabupaten Demak</h5>
+									<div class="address-section">
+										<div class="address-line">
+											<i class="fas fa-map-marker-alt address-icon"></i>
+											<span class="address-text">Jalan Sultan Trenggono No. 89, Katonsari</span>
+										</div>
+										<div class="address-line">
+											<i class="fas fa-location-arrow address-icon"></i>
+											<span class="address-text">Kecamatan Demak, Kabupaten Demak</span>
+										</div>
+										<div class="address-line">
+											<i class="fas fa-map-pin address-icon"></i>
+											<span class="address-text">Jawa Tengah</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Right Column: Website Info -->
+						<div class="col-lg-6 mb-4">
+							<div class="footer-card">
+								<div class="card-header">
+									<i class="fas fa-info-circle footer-icon"></i>
+									<h4 class="footer-title">Tentang Website</h4>
+								</div>
+								<div class="card-body">
+									<h3 class="website-title">SIG Kabupaten Demak</h3>
+									<p class="website-description">Sistem Informasi Geografis Sebaran Residu
+										Kependudukan
+										Peserta Didik SMP Kabupaten Demak Tahun 2025.</p>
+									<div class="website-note">
+										<i class="fas fa-sticky-note note-icon"></i>
+										<p class="note-text">Website ini disusun sebagai media informasi dan analisis
+											berbasis data.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="copyright">
+					<p>&copy; 2025 SIG Kabupaten Demak. All rights reserved. | Sumber Data: Kemendikbudristek | Penelitian Mahasiswa</p>
+				</div>
+			</div>
+		</div>
+		</div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+	<script src="script.js"></script>
+</body>
+
+</html>
